@@ -1,0 +1,14 @@
+Find25GoldRoom			LeaveCaveRoom						LeaveCaveRoom
+FrenchCastleRoom			Find50GoldRoom						Find50GoldRoom
+Find50GoldRoom			EmptyCavePath						OgreRoom
+FindHammerRoom			OgreRoom						FindHammerRoom
+GiantSpiderRoom			Find50GoldRoom						Find50GoldRoom
+Find25GoldRoom			FindHammerRoom						Find25GoldRoom
+FindDaggerRoom			EmptyCavePath						KoboldRoom
+Find5GoldRoom	EmptyCavePath	Find25GoldRoom	StartingRoom	EmptyCavePath	Find5GoldRoom	FindDaggerRoom	OgreRoom	FindHammerRoom	TwoWayIntersection
+			FindDaggerRoom						Find5GoldRoom
+			EmptyCavePath						Find5GoldRoom
+			EmptyCavePath						Find5GoldRoom
+			FrenchCastleRoom						Find5GoldRoom
+			FindHammerRoom						Find5GoldRoom
+			LeaveCaveRoom						LeaveCaveRoom
